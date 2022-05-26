@@ -8,16 +8,16 @@
 }
 
 body {
-  background: ;
-  color: ;
+  background: none;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
 }
 
 body,
 input,
 button {
-  font-size: ;
-  font-family: ;
+  font-size: inherit;
+  font-family: inherit;
 }
 
 button {
@@ -100,7 +100,6 @@ html {
   display: block;
   -webkit-box-flex: 0;
   flex: 0 0 auto;
-  flex: 0 0 auto;
   font-size: 14px;
   font-weight: 600;
   line-height: 44px;
@@ -174,7 +173,7 @@ html {
 }
 
 #g-logo {
-  margin: 198px auto 0px auto;
+  margin: 198px auto 0 auto;
   max-height: 92px;
 }
 
@@ -287,6 +286,30 @@ footer {
   text-decoration: underline;
 }
 
+.footer-links a.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+.footer-links a.author span {
+  display: block;
+}
+
+.footer-links a.author svg {
+  display: inline;
+  fill: #70757a;
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  transition: .1s;
+}
+
+.footer-links a.author:hover svg {
+  fill: #3c3d41;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
@@ -305,7 +328,7 @@ footer {
     width: 100%;
   }
   #search-container {
-    max-width: auto;
+    max-width: unset;
   }
   #footer-nav {
     flex-flow: column-reverse wrap;
