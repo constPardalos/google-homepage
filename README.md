@@ -1,6 +1,6 @@
 # <img src="/assets/favicon.png" width="22"/> Google Homepage
 
-<a href="https://thecolordude.github.io/google-homepage/" target="blank_">Live Demo</a>
+<a href="https://thecolordude.github.io/google-homepage/" target="_blank">Live Demo</a>
 
 ## Description
 
